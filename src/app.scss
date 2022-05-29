@@ -1,0 +1,60 @@
+@import '~taro-ui/dist/style/index.scss';
+@font-face {
+  font-family: "iconfont"; /* Project id 2970160 */
+  src: url('//at.alicdn.com/t/font_2970160_d8bkxt3mwzq.woff2?t=1638113113691') format('woff2'),
+  url('//at.alicdn.com/t/font_2970160_d8bkxt3mwzq.woff?t=1638113113691') format('woff'),
+  url('//at.alicdn.com/t/font_2970160_d8bkxt3mwzq.ttf?t=1638113113691') format('truetype');
+}
+
+.iconfont {
+  font-family: "iconfont" !important;
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-zhuye1:before {
+  content: "\e663";
+}
+
+.icon-24gl-newspaper3:before {
+  content: "\e8ae";
+}
+
+.icon-xiangji2:before {
+  content: "\e780";
+}
+
+.icon-qitalaji:before {
+  content: "\e624";
+}
+
+.icon-chuyulaji:before {
+  content: "\e626";
+}
+
+.icon-bukehuishou_huaban1:before {
+  content: "\e602";
+}
+
+.icon-shilaji:before {
+  content: "\e622";
+}
+
+.icon-ganlaji:before {
+  content: "\e623";
+}
+
+.icon-youhailaji:before {
+  content: "\e625";
+}
+
+.icon-kehuishouwu:before {
+  content: "\e627";
+}
+
+.icon-weizhi:before {
+  content: "\e601";
+}
+

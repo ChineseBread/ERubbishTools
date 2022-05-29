@@ -1,0 +1,19 @@
+.searchInfo_index{
+  height: 100%;
+}
+.searchInfo_card_icon{
+  font-size: 100rpx;
+  padding-right: 10rpx;
+}
+.header{
+
+  font-family: STHupo;
+  letter-spacing:10rpx;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  height: 100rpx;
+  text-align: center;
+  background: linear-gradient(to top, #FFEEEE, #DDEFBB);
+  margin-bottom: 10rpx;
+}

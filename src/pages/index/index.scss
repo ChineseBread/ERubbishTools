@@ -1,0 +1,57 @@
+@mixin myDisplay{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.index {
+      flex-direction: column;
+      width: 100%;
+      .nav_title_container{
+            //position: relative;
+            //padding-right: 40%;
+            flex-grow: 1;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: center;
+            background: linear-gradient(to bottom, #5abaee, #ffffff);
+            .nav_title{
+                position: absolute;
+                z-index: 100;
+                left: 50%;
+                right: 50%;
+                font-weight: bold;
+                color: #096dd9;
+                height: 100%;
+                text-align: center;
+                text-shadow: 1px 1px 4px;
+            }
+            .user_location_container{
+                padding-left: 20rpx;
+                height: 100%;
+                @include myDisplay;
+                //position: absolute;
+                //left: 20px;
+                //top:58rpx;
+                .myIcon{
+                    font-size: 36px;
+                    color: #296ce5;
+                    padding-right: 12rpx;
+                }
+                .user_current_location{
+                  font-weight: bold;
+                }
+            }
+            .nav_title{
+                @include myDisplay;
+            }
+      }
+
+      .swiper_container Image{
+        width: 100%;
+        height: 100%;
+      }
+
+
+}
